@@ -1,0 +1,63 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background-color: #fff;
+        }
+
+        .logo {
+            font-size: 90px;
+            font-weight: bold;
+        }
+
+        .logo span:nth-child(1) { color: #4285F4; }
+        .logo span:nth-child(2) { color: #DB4437; }
+        .logo span:nth-child(3) { color: #F4B400; }
+        .logo span:nth-child(4) { color: #4285F4; }
+        .logo span:nth-child(5) { color: #0F9D58; }
+        .logo span:nth-child(6) { color: #DB4437; }
+
+        .search-box {
+            margin-top: 20px;
+            width: 500px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            border-radius: 25px;
+            border: 1px solid #dcdcdc;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .search-box input:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .buttons button:hover {
+            border: 1px solid #dadce0;
+        }
+       input{
+        background-image: url(https://cdn-icons-png.flaticon.com/512/2866/2866321.png);
+        position: absolute;
+       }
